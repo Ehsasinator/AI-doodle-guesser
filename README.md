@@ -4,6 +4,11 @@ Here is the AI doodle trainer I coded using kerbs and tensorflow to learn from .
 
 To add your .npy files, store the .npy files in the same directory as the python code, and to type the name of each category in a category.txt file
 
+https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=true
+
+.npy files for various categories can be found in the link above ^^
+
+
 model.add(layers.Dense(18, activation = 'softmax'))  in this line change 18 to how many words you have
 
 
